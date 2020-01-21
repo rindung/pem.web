@@ -1,0 +1,112 @@
+.head{
+  color: white;
+  text-align: center;
+  padding: 40px;
+  background-color: rgba(0,0,0,0.8);
+}
+.container{
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+body{
+  background-image: url(pop.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+  
+li {
+  float: left;
+  margin-left: 70px;
+}
+  
+li a, .albumm {
+  display: inline-block;
+  color:white;
+  text-align: center;
+  padding: 15px 60px;
+  text-decoration: none;
+}
+  
+li a:hover, .ALBUM:hover .albumm {
+  background-color: #333333;
+  text-decoration: none;
+}
+  
+li.ALBUM {
+  display: inline-block;
+}
+  
+.isi-album {
+  display: none;
+  position: absolute;
+  background-color:grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-decoration: none;
+}
+  
+.isi-album a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+  
+.isi-album a:hover {
+  background-color:white;
+  text-decoration: none;
+}
+  
+.ALBUM:hover .isi-album {
+  display: block;
+  text-decoration: none;
+}
+.bmth{
+  background-color: rgba(0,0,0,0.8);
+  padding: 2px;
+}
+
+.home{
+  font-size: 20px;
+  text-align: justify;
+  color: white;
+}
+.section p{
+  width: 100%;
+  text-align: justify;
+  font-size: 80%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.komen input{
+  width: 50%;
+  padding: 12px 10px;
+  color: black;
+}
+.kakap input[type=submit]{
+  background-color: green;
+  border: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.footer{
+  color: white;
+  font-size: 20px;
+  padding: 10px;  
+  background-color: rgba(0,0,0,0.9);
+  text-align: center;
+}
